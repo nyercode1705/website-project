@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TKD Gear Pro | Futuristic TKD Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: black;
+      color: white;
+    }
+    .glow-text {
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+    .glow-border {
+      border: 2px solid;
+      border-image: linear-gradient(45deg, #ff0040, #00bfff) 1;
+      box-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+    .swiper-container {
+      width: 100%;
+      padding: 0 20px;
+    }
+    .swiper-wrapper {
+      display: flex;
+    }
+    .swiper-slide {
+      opacity: 0.6;
+      transform: scale(1);
+      transition: all 0.3s ease;
+      width: auto;
+      max-width: 300px;
+    }
+    .swiper-slide.swiper-slide-active {
+      opacity: 1 !important;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="relative overflow-x-hidden">
+
+  <header class="fixed w-full z-50 bg-black bg-opacity-50 backdrop-blur-lg border-b border-red-500">
+    <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+      <img src="assets/models/gear pro (4).png" class="w-28 sm:w-32 md:w-40 lg:w-48 h-auto" alt="TKD Logo">
+      <nav class="flex items-center h-16 space-x-8 text-lg font-bold">
+        <a href="index.html" class="text-white hover:text-red-500 transition">Home</a>
+        <a href="products.html" class="text-white hover:text-red-500 transition">Products</a>
+        <a href="about.html" class="text-white hover:text-red-500 transition">About</a>
+        <a href="affiliates.html" class="text-white hover:text-red-500 transition">Affiliates</a>
+        <a href="contact.html" class="text-white hover:text-red-500 transition">Contact</a>
+        <a href="faq.html" class="text-white hover:text-red-500 transition">FAQ</a>
+        <a href="login.html" class="text-white hover:text-blue-400 transition">Log In</a>
+      </nav>
+    </div>
+  </header>
+
+<section class="relative h-screen w-full pt-20 flex justify-center items-center text-center overflow-hidden">
+  <video autoplay muted loop playsinline class="absolute w-full h-full object-cover brightness-[0.3] saturate-150 contrast-125">
+    <source src="assets/models/bg-tkd.mp4" type="video/mp4">
+  </video>
+  <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/90 z-0"></div>
+  <div class="relative z-10 px-6 space-y-8">
+    <h1 class="text-6xl font-extrabold glow-text tracking-widest drop-shadow-md">TKD GEAR PRO</h1>
+    <p class="text-xl text-white/70 mt-2">Future-grade martial equipment for elite fighters</p>
+    <a href="products.html" class="inline-block mt-4 px-8 py-3 text-black font-bold bg-gradient-to-r from-red-500 to-blue-500 rounded-full glow-border hover:scale-105 transition">Enter the Catalog</a>
+  </div>
+</section>
+
+<section class="py-24 relative">
+  <h2 class="text-4xl font-bold text-center mb-16 glow-text" data-aos="fade-up">🔥 Top Gear Picks</h2>
+  <div class="swiper-container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide bg-black glow-border rounded-2xl p-6 text-center">
+        <img src="assets/models/shinguard.png" class="rounded mb-4 mx-auto w-40 h-40 object-contain">
+        <h3 class="text-xl font-bold text-blue-400">Titan Shin Guard</h3>
+        <p class="text-sm text-white/70 mt-2">Shock-absorbent design with anti-slip fit.</p>
+      </div>
+      <div class="swiper-slide bg-black glow-border rounded-2xl p-6 text-center">
+        <img src="assets/models/bluehelmet.png" class="rounded mb-4 mx-auto w-40 h-40 object-contain">
+        <h3 class="text-xl font-bold text-red-400">SkyStrike Helmet</h3>
+        <p class="text-sm text-white/70 mt-2">Impact shield tech for brain-safe sparring.</p>
+      </div>
+      <div class="swiper-slide bg-black glow-border rounded-2xl p-6 text-center">
+        <img src="assets/models/bluebodyarmor.png" class="rounded mb-4 mx-auto w-40 h-40 object-contain">
+        <h3 class="text-xl font-bold text-blue-400">Azure Core Armor</h3>
+        <p class="text-sm text-white/70 mt-2">Reinforced core shell with flexible movement zones.</p>
+      </div>
+      <div class="swiper-slide bg-black glow-border rounded-2xl p-6 text-center">
+        <img src="assets/models/dobok.png" class="rounded mb-4 mx-auto w-40 h-40 object-contain">
+        <h3 class="text-xl font-bold text-red-400">Phantom Dobok</h3>
+        <p class="text-sm text-white/70 mt-2">Hyperlight breathable fabric for elite motion.</p>
+      </div>
+      <div class="swiper-slide bg-black glow-border rounded-2xl p-6 text-center">
+        <img src="assets/models/handgloves.png" class="rounded mb-4 mx-auto w-40 h-40 object-contain">
+        <h3 class="text-xl font-bold text-blue-400">StrikeCore Hand Gloves</h3>
+        <p class="text-sm text-white/70 mt-2">Nano-grip core for maximum striking control.</p>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="flex justify-center">
+      <a href="products.html" class="inline-block mt-8 px-6 py-3 bg-red-600 text-white rounded-full font-bold hover:scale-105 transition">
+        🛒 Shop Featured Gear
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gradient-to-br from-black via-gray-900 to-black py-20 text-center">
+  <h2 class="text-3xl font-bold text-white mb-6 glow-text" data-aos="fade-up">🌀 3D Model 360 Spin</h2>
+  <p class="text-white/70 mb-6" data-aos="fade-up" data-aos-delay="100">Click and drag to rotate the gear in 360°. Interact freely!</p>
+  <model-viewer src="assets/models/martial-gear.glb" camera-controls disable-zoom interaction-prompt="when-focused" style="width: 100%; max-width: 500px; height: 500px; margin: auto;" background-color="#000000" shadow-intensity="1"></model-viewer>
+</section>
+
+<section class="py-20 bg-black text-center">
+  <h2 class="text-3xl font-bold mb-8 glow-text" data-aos="fade-up">
+    "TKD GEAR PRO: The Warrior Within"
+  </h2>
+  <div class="max-w-4xl mx-auto" data-aos="zoom-in">
+    <video id="scrollVideo" class="w-full h-96 rounded-xl glow-border" controls playsinline preload="metadata">
+      <source src="assets/models/TKDADS.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<section id="promoBanner" class="fixed bottom-0 left-0 w-full z-50 bg-gradient-to-r from-blue-600 via-black to-red-600 py-2 text-center shadow-2xl transform transition-transform duration-500">
+  <div class="flex justify-between items-center gap-4">
+    <button onclick="toggleBanner()" id="toggleButton" class="text-white text-2xl font-bold px-3 py-2 ml-2 border-2 border-white rounded-full hover:text-blue-400 hover:border-blue-400 transition absolute left-0 top-1/2 transform -translate-y-1/2">
+      &gt;
+    </button>
+    <div class="flex-grow text-center">
+      <h3 class="text-sm md:text-base text-white font-semibold animate-pulse">🎉 Exclusive Discount — Create an Account & Get Promo Deals!</h3>
+      <a href="signup.html" class="mt-1 inline-block bg-white text-black text-sm px-4 py-1.5 rounded-full font-bold hover:scale-105 transition">
+        🚀 Sign Up & Save
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="py-10 bg-black border-t border-white/10 text-center">
+  <p class="text-white/70">&copy; 2025 TKD Gear Pro. Powered by Sci-Kwon Tech.</p>
+  <div class="flex justify-center space-x-6 mt-4">
+    <a href="#" class="hover:text-red-400 transition">Instagram</a>
+    <a href="#" class="hover:text-blue-400 transition">Facebook</a>
+    <a href="#" class="hover:text-white transition">YouTube</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  AOS.init();
+  const video = document.getElementById("scrollVideo");
+  if(video) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const playPromise = video.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(() => console.log("Autoplay failed"));
+          }
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.5 });
+    observer.observe(video);
+  }
+
+  const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    initialSlide: 1,
+    loop: true,
+    spaceBetween: 30,
+    grabCursor: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  let bannerVisible = true;
+  function toggleBanner() {
+    const banner = document.getElementById('promoBanner');
+    const button = document.getElementById('toggleButton');
+    if (bannerVisible) {
+      banner.style.transform = 'translateX(95%)';
+      button.innerHTML = '&lt;';
+    } else {
+      banner.style.transform = 'translateX(0)';
+      button.innerHTML = '&gt;';
+    }
+    bannerVisible = !bannerVisible;
+  }
+</script>
+</body>
+</html>
