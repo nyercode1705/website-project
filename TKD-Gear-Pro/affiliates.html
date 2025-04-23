@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliates | TKD Gear Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: black;
+      color: white;
+    }
+    .glow-text {
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+    .glow-border {
+      border: 2px solid;
+      border-image: linear-gradient(45deg, #ff0040, #00bfff) 1;
+      box-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+    .affiliate-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .affiliate-card:hover {
+      transform: scale(1.05);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+      }
+      50% {
+        box-shadow: 0 0 20px #00ffff, 0 0 30px #ff0080;
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+  <header class="fixed w-full z-50 bg-black bg-opacity-50 backdrop-blur-lg border-b border-red-500">
+    <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+      <img src="assets/models/gear pro (4).png" class="w-28 sm:w-32 md:w-40 lg:w-48 h-auto" alt="TKD Logo">
+      <nav class="flex items-center h-16 space-x-8 text-lg font-bold">
+        <a href="index.html" class="text-white hover:text-red-500 transition">Home</a>
+        <a href="products.html" class="text-white hover:text-red-500 transition">Products</a>
+        <a href="about.html" class="text-white hover:text-red-500 transition">About</a>
+        <a href="affiliates.html" class="text-white hover:text-red-500 transition">Affiliates</a>
+        <a href="contact.html" class="text-white hover:text-red-500 transition">Contact</a>
+        <a href="faq.html" class="text-white hover:text-red-500 transition">FAQ</a>
+        <a href="login.html" class="text-white hover:text-blue-400 transition">Log In</a>
+      </nav>
+    </div>
+  </header>
+
+<main class="pt-32 px-6 max-w-6xl mx-auto">
+  <section class="text-center mb-16">
+    <h1 class="text-5xl font-extrabold glow-text mb-4">Our Affiliates</h1>
+    <p class="text-white/70 text-lg max-w-2xl mx-auto">We proudly collaborate with organizations and teams that support the growth of Taekwondo and martial arts excellence.</p>
+  </section>
+
+  <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/kickmaster.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="KickMaster">
+      <h2 class="text-xl font-bold text-white">KickMaster Academy</h2>
+      <p class="text-white/70 text-sm mt-2">One of the leading dojos in the Philippines focused on youth empowerment through Taekwondo excellence.</p>
+    </div>
+
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/pulsefit.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="Pulse Fit">
+      <h2 class="text-xl font-bold text-white">PulseFit Training Hub</h2>
+      <p class="text-white/70 text-sm mt-2">Fitness and conditioning center supporting martial artists and athletes with science-backed training programs.</p>
+    </div>
+
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/championsclub.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="Champions Club">
+      <h2 class="text-xl font-bold text-white">Champions Club PH</h2>
+      <p class="text-white/70 text-sm mt-2">National-level competition team with strong community values and a mission to train future gold medalists.</p>
+    </div>
+
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/fightforge.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="Fight Forge">
+      <h2 class="text-xl font-bold text-white">FightForge Wearables</h2>
+      <p class="text-white/70 text-sm mt-2">Innovators of smart combat wearables that track performance and safety for martial artists in real-time.</p>
+    </div>
+
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/unitekwondo.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="United TKD">
+      <h2 class="text-xl font-bold text-white">United TKD Alliance</h2>
+      <p class="text-white/70 text-sm mt-2">A federation of Taekwondo schools that promotes unity, discipline, and competitive excellence.</p>
+    </div>
+
+    <div class="bg-black p-6 glow-border rounded-xl text-center affiliate-card">
+      <img src="assets/affiliates/hypekicks.jpg" class="mx-auto rounded-full w-32 h-32 object-cover mb-4" alt="HypeKicks">
+      <h2 class="text-xl font-bold text-white">HypeKicks Co.</h2>
+      <p class="text-white/70 text-sm mt-2">Martial arts sneaker brand blending comfort, performance, and futuristic street design.</p>
+    </div>
+  </section>
+
+  <div class="text-center mt-16">
+    <p class="text-white/70 text-sm">Logos and descriptions are fictional and used for project demonstration only.</p>
+    <p class="text-white/50 text-sm">TKD Gear Pro | UCC - BSCS 1B | By: Reynaldo Jr. G. Abrigo</p>
+  </div>
+</main>
+
+<footer class="py-10 bg-black border-t border-white/10 text-center mt-16">
+  <p class="text-white/70">&copy; 2025 TKD Gear Pro. Powered by Sci-Kwon Tech.</p>
+  <div class="flex justify-center space-x-6 mt-4">
+    <a href="#" class="hover:text-red-400 transition">Instagram</a>
+    <a href="#" class="hover:text-blue-400 transition">Facebook</a>
+    <a href="#" class="hover:text-white transition">YouTube</a>
+  </div>
+</footer>
+</body>
+</html>

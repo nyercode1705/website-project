@@ -1,0 +1,46 @@
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | TKD Gear Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: black;
+      color: white;
+    }
+    .glow-text {
+      text-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+    .glow-border {
+      border: 2px solid;
+      border-image: linear-gradient(45deg, #ff0040, #00bfff) 1;
+      box-shadow: 0 0 10px #00bfff, 0 0 20px #ff0040;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center">
+  <div class="max-w-md w-full p-8 bg-black glow-border rounded-lg">
+    <h1 class="text-3xl font-bold text-center mb-4 glow-text">Sign Up for TKD Gear Pro</h1>
+    <p class="text-center text-white/70 text-sm mb-6">🔥 Get 20% off your first order when you register!</p>
+    <form>
+      <div class="mb-4">
+        <label class="block text-sm mb-1">Full Name</label>
+        <input type="text" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm mb-1">Email</label>
+        <input type="email" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="mb-6">
+        <label class="block text-sm mb-1">Password</label>
+        <input type="password" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <button type="submit" class="w-full py-2 bg-gradient-to-r from-red-500 to-blue-500 rounded font-bold text-black hover:scale-105 transition">Sign Up</button>
+    </form>
+    <p class="text-sm text-center mt-6">Already have an account? <a href="login.html" class="text-blue-400 hover:text-red-400">Login</a></p>
+  </div>
+</body>
+</html>
